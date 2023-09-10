@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ~/D_MCServer;
+echo "${1#*\!\!ci }" > /tmp/CICheck.log;
+echo "退出登陆" >> /tmp/E_CICheck.log;
+# 退出登陆
+screen -S "pyCraft" -X quit;

@@ -1,0 +1,3 @@
+echo "玩家退出时自动关闭服务端" >> /tmp/E_CICheck.log;
+# 玩家退出时自动关闭服务端
+minecraftctl stop;
