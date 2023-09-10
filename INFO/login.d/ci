@@ -1,4 +1,3 @@
 echo "发送消息触发插件" >> /tmp/E_CICheck.log;
-sleep 3;
 # 发送消息触发插件
 screen -x -S "pyCraft" -p 0 -X stuff "!!ci ${CheckID}\n";

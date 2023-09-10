@@ -1,10 +1,5 @@
 echo "拉起一个pyCraft实例" >> /tmp/E_CICheck.log;
 # 拉起一个pyCraft实例
-ls -lab ./ >> /tmp/E_CICheck.log;
-echo "======" >> /tmp/E_CICheck.log;
-ls -lab ../ >> /tmp/E_CICheck.log;
-echo "======" >> /tmp/E_CICheck.log;
-ls -lab ~/ >> /tmp/E_CICheck.log;
 cd ~/pyCraft;
 echo "  创建会话" >> /tmp/E_CICheck.log;
 screen -dmS "pyCraft";
